@@ -1,0 +1,9 @@
+import math
+x=10
+y=36
+m_s = input("Neçə km/saatı m/san-yə çevirmək istəyirsən? ")
+netice=(int(m_s)*x)/y
+print(netice)
+km_s = input("Neçə m/san-i km/saata çevirmək istəyirsəm? ")
+netice=(int(m_s)*y)/x
+print(netice)
