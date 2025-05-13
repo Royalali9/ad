@@ -1,0 +1,10 @@
+class Gənc:
+    def __init__(self, ad, soyad, yaş):
+        self.ad = ad
+        self.soyad = soyad
+        self.yaş = yaş
+    def m(self):
+        return f"{self.yaş} yaş {self.ad} {self.soyad}"
+şagird = Gənc("Röyal", "Əliyev", 24)
+print(şagird.m())      
+

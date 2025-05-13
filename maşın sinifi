@@ -1,0 +1,13 @@
+class Avtomobil:
+    def __init__(self, marka, model, il):
+        self.marka = marka
+        self.model = model
+        self.il = il
+    def məlumat(self):
+        return f"{self.il} model {self.marka} {self.model}"
+avtomobil1 = Avtomobil("Chevrolet", "Malibu", 2020)
+print(avtomobil1.məlumat())        
+   
+       
+
+
