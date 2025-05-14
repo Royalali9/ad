@@ -1,0 +1,4 @@
+marka = "chevrolet"
+model = "malibu"
+il = 2020
+print(f"{il} model {marka} {model}")
